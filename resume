@@ -123,7 +123,7 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Tec de Monterrey}{Monterrey, Nuevo León, México}
+      {Tecnológico de Monterrey}{Monterrey, Nuevo León, México}
       {B.S. in Computer Science and Technology}{August 2021 -- June 2025}
       {GPA of 99.95/100 with Academic Talent Scholarship}
   \resumeSubHeadingListEnd
@@ -133,10 +133,17 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Clean Wash} $|$ \emph{C++, Arduino, Firebase, HTML, CSS, JavaScript, TelegramAPI}}{Sept. 2022 -- Dec. 2022}
+          {\textbf{Clean Wash} $|$ \emph{C++, Arduino, Firebase, HTML, CSS, JavaScript, Telegram API}}{Sept. 2022 -- Dec. 2022}
           \resumeItemListStart
-            \resumeItem{Worked with a team of 5 people in developing an IoT product to optimize the usage of resources in washing clothes}
-            \resumeItem{}
+            \resumeItem{Worked with a team of 5 in developing an IoT product to optimize the usage of resources when washing clothes.}
+            \resumeItem{Connected an ESP8266 to sensors to send the collected data to a Firebase database.}
+            \resumeItem{Displayed real time data from the database in the website.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Gamification of Student Survey} $|$ \emph{Unity, HTML/CSS/JS, Node.js, React, MySQL}}{Feb. 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a gamification in Unity to increase the amount of students who didn't answer or finished the student survey to grade the professors.}
+            \resumeItem{The questions could be configured from a web portal and the data was stored in a MySQL database hosted in Microsoft Azure.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -149,8 +156,8 @@
     \small{\item{
      \textbf{Languages}{: Java, Python, C++, SwiftUI, MySQL, JavaScript, HTML/CSS, Matlab, Clojure, Racket} \\
      \textbf{Frameworks}{: React, Node.js} \\
-     \textbf{Developer Tools}{: Git, VS Code, Eclipse, Matlab, XCode, Unity, MiniTab, Arduino, Firebase, PyCharm} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, TelegramAPI}
+     \textbf{Developer Tools}{: Git, VS Code, Eclipse, Matlab, XCode, Unity, MiniTab, Arduino, Firebase, PyCharm, Cisco Packet Tracer} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Telegram API}
     }}
  \end{itemize}
 
