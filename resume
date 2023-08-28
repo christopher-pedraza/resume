@@ -142,8 +142,13 @@
       \resumeProjectHeading
           {\textbf{Gamification of Student Survey} $|$ \emph{Unity, HTML/CSS/JS, Node.js, React, MySQL}}{Feb. 2023 -- May 2023}
           \resumeItemListStart
-            \resumeItem{Developed a gamification in Unity to increase the amount of students who didn't answer or finished the student survey to grade the professors.}
+            \resumeItem{Developed a gamification in Unity for the Tecnológico de Monterrey to increase the amount of its students who didn't answer or finished the student survey to evaluate the professors.}
             \resumeItem{The questions could be configured from a web portal and the data was stored in a MySQL database hosted in Microsoft Azure.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Casco Antiguo's quotation helper} $|$ \emph{Java, fastexcel}}{Feb. 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -154,12 +159,26 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C++, SwiftUI, MySQL, JavaScript, HTML/CSS, Matlab, Clojure, Racket} \\
+     \textbf{Programming languages}{: Java, Python, C++, SwiftUI, MySQL, JavaScript, HTML/CSS, Matlab, Clojure, Racket} \\
      \textbf{Frameworks}{: React, Node.js} \\
      \textbf{Developer Tools}{: Git, VS Code, Eclipse, Matlab, XCode, Unity, MiniTab, Arduino, Firebase, PyCharm, Cisco Packet Tracer} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Telegram API}
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Telegram API, Apache POI, fastexcel}
     }}
  \end{itemize}
+
+%
+%-----------LANGUAGES-----------
+\section{Languages}
+\resumeItemListStart
+    \resumeItem{Spanish (Native), English (Advanced - C1), Italian (Basic - B1)}
+\resumeItemListEnd
+
+%
+%-----------COMPETITIONS-----------
+\section{Competitions}
+\resumeItemListStart
+    \resumeItem{ICPC}
+\resumeItemListEnd
 
 
 %-------------------------------------------
