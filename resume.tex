@@ -42,7 +42,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-0.5in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -71,7 +71,7 @@
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \small#3 & \textit{\small #4} \\
       {#5} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -106,13 +106,8 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
-    \textbf{\Huge \scshape Christopher Pedraza} \\ \vspace{1pt}
+    \textbf{\LARGE \scshape Christopher G. Pedraza Pohlenz} \\ \vspace{1pt}
     \small (+52) 812 372 4395 $|$ \href{mailto:christopher.gpp@outlook.com}{\underline{christopher.gpp@outlook.com}} $|$ 
     \href{https://github.com/christopher-pedraza}{\underline{https://github.com/christopher-pedraza}}
 \end{center}
@@ -123,54 +118,58 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Instituto Tecnológico y de Estudios Superiores de Monterrey}{Nuevo León, México}
-      {B.S. in Computer Science and Technology}{August 2021 -- June 2025}
-      {GPA of 99.95/100 with Academic Talent Scholarship}
+      {B.S. in Computer Science and Technology; Current GPA 4.0/4.0}{Aug. 2021 -- Present (Expected June 2025)}
+      {\textbf{Awards: }}
+      \resumeItemListStart
+        \resumeItem{Academic Talent Scholarship}
+        \resumeItem{Best grades of the Engineering and Science Division 2022}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
+    \resumeSubHeadingListStart          
+       \resumeProjectHeading
+          {\textbf{Señaventuras} $|$ \emph{SwiftUI, PostgreSQL, Core ML, Node.js, Express}}{\emph{Aug. 2023 -- Present}}
+          \resumeItemListStart
+            \resumeItem{Currently developing an iOS app for kids to learn Mexican Sign Language (LSM) for the Civil Association Dilo en Señas.}
+            \resumeItem{Consists of gamification with activities like subtitled videos with an LSM interpreter, quizzes, and image recognition using Apple's Core ML where one has to find certain objects to get their name and sign.}
+          \resumeItemListEnd
+
       \resumeProjectHeading
-          {\textbf{Clean Wash} $|$ \emph{C++, Arduino, Firebase, HTML/CSS/JS, JavaScript, Telegram API}}{Sept. 2022 -- Dec. 2022}
+          {\textbf{Syntax Highlighter} $|$ \emph{Clojure, HTML/CSS/JS}}{\emph{Feb. -- June 2023}}
+          \resumeItemListStart
+            \resumeItem{Developed a syntax highlighter using Clojure that produced an HTML file with the tokens highlighted.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Gamification of Student Survey} $|$ \emph{Unity, HTML/CSS/JS, Node.js, React, MySQL}}{\emph{Feb. -- May 2023}}
+          \resumeItemListStart
+            \resumeItem{Developed gamification in Unity for the Tecnológico de Monterrey to decrease the number of students who didn't answer or finish the student survey to evaluate the professors.}
+            \resumeItem{The questions could be configured from a web portal and the data was stored in a MySQL database hosted in Microsoft Azure.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Clean Wash} $|$ \emph{C++, Arduino, Firebase, HTML/CSS/JS, JavaScript, Telegram API}}{\emph{Sept. -- Dec. 2022}}
           \resumeItemListStart
             \resumeItem{Worked with a team of 5 in developing an IoT product to optimize the usage of resources when washing clothes.}
             \resumeItem{Connected an ESP8266 to sensors to send the collected data to a Firebase database.}
             \resumeItem{Displayed real-time data from the database on the website.}
           \resumeItemListEnd
-          
+
       \resumeProjectHeading
-          {\textbf{Gamification of Student Survey} $|$ \emph{Unity, HTML/CSS/JS, Node.js, React, MySQL}}{Feb. 2023 -- May 2023}
+          {\textbf{Braille Learning Tool} $|$ \emph{Java}}{\emph{Aug. 2021}}
           \resumeItemListStart
-            \resumeItem{Developed gamification in Unity for the Tecnológico de Monterrey to decrease the number of students who didn't answer or finish the student survey to evaluate the professors.}
-            \resumeItem{The questions could be configured from a web portal and the data was stored in a MySQL database hosted in Microsoft Azure.}
+            \resumeItem{Developed for the HackMty competition a grade 1 braille translator and learning tool with a team of 4 people.}
+            \resumeItem{Lets one translate words into sets of cells with dots representing each character, and learn grade 1 braille through quizzes. These cells were also described through audio.}
           \resumeItemListEnd
-          
+
       \resumeProjectHeading
-          {\textbf{Casco Antiguo's quotation helper} $|$ \emph{Java, fastexcel}}{Aug. 2020 -- May 2021}
+          {\textbf{Casco Antiguo's quotation helper} $|$ \emph{Java, fastexcel}}{\emph{Aug. 2020 -- May 2021}}
           \resumeItemListStart
             \resumeItem{Faced with the need to shorten the time required to make a quotation, a program was made to automatize the process, reducing the time from 30 minutes to less than 1.}
             \resumeItem{It processes a data set with the products, producing a configurable spreadsheet.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Braille Learning Tool} $|$ \emph{Java}}{Aug. 2021}
-          \resumeItemListStart
-            \resumeItem{Developed for the HackMty competition a grade 1 braille translator and learning tool with a team of 4 people.}
-            \resumeItem{Lets you translate words into sets of cells with dots representing each character, and learn grade 1 braille through quizzes. These cells were also described through audio.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Señaventuras} $|$ \emph{SwiftUI, PostgreSQL, Core ML}}{Aug. 2023 -- Present}
-          \resumeItemListStart
-            \resumeItem{Currently developing an iOS app for kids to learn Mexican Sign Language (LSM) for the Civil Association Dilo en Señas.}
-            \resumeItem{Consists of gamification with activities like subtitled videos with an LSM interpreter, quizzes, and image recognition using Apple's Core ML where you have to find certain objects to get their name and sign.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Syntax Highlighter} $|$ \emph{Clojure, HTML/CSS/JS}}{Feb. 2023 -- June 2023}
-          \resumeItemListStart
-            \resumeItem{Developed a syntax highlighter using Clojure that produced an HTML file with the tokens highlighted.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -180,7 +179,7 @@
 \resumeItemListStart
     \resumeItem{ICPC Grand Prix Mexico 2023 - \#90 in Mexico, \#7 in the University}
     \resumeItem{ICPC Grand Prix Mexico 2022 - \#85 in Mexico, \#6 in the University}
-    \resumeItem{HackMty 2020}
+    \resumeItem{HackMty 2020 - Largest student hackathon in Mexico where I developed the Braille Learning Tool}
 \resumeItemListEnd
 
 
@@ -189,9 +188,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming languages}{: Java, Python, C++, C\#, SwiftUI, MySQL, JavaScript, HTML/CSS, Matlab, Clojure, Racket} \\
-     \textbf{Frameworks}{: Node.js} \\
-     \textbf{Developer Tools}{: Git, VSCode, Eclipse, Matlab, XCode, Unity, MiniTab, Arduino, Firebase, PyCharm, Cisco Packet Tracer, Core ML} \\
+     \textbf{Programming languages}{: Java, Python, C++, C\#, SwiftUI, SQL, JavaScript, HTML/CSS, Matlab, Clojure, Racket} \\
+     \textbf{Frameworks}{: Node.js, Express} \\
+     \textbf{Developer Tools}{: Git, VSCode, Eclipse, Matlab, XCode, Unity, MiniTab, Arduino, Firebase, Cisco Packet Tracer, Core ML} \\
      \textbf{Libraries}{: pandas, NumPy, Matplotlib, Telegram API, Apache POI, fastexcel}
     }}
  \end{itemize}
@@ -200,7 +199,7 @@
 %-----------LANGUAGES-----------
 \section{Languages}
 \resumeItemListStart
-    \resumeItem{Spanish (Native), English (Advanced - C1), Italian (Basic - B1)}
+    \resumeItem{Spanish (Native), English (Proficient), Italian (Basic - B1)}
 \resumeItemListEnd
 
 %
